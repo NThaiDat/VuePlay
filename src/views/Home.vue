@@ -6,7 +6,7 @@
 
   <div class="row" >
     <button class="btn" id="gameLatThe" @click="$router.push('/latthe')">Lật Thẻ</button>
-    <button class="btn" id="gameLatThe" >Rắn Săn Mồi</button>
+    <button class="btn" id="gameLatThe" @click="$router.push('/Ran')">Rắn Săn Mồi</button>
   </div>
 
 

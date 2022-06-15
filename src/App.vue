@@ -1,6 +1,9 @@
 <template>
-<home></home>
-  <router-view/>
+ <div class="container">
+   <home></home>
+   <router-view/>
+ </div>
+
 </template>
 
 <script>
