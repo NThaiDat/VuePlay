@@ -24,7 +24,7 @@ export default {
     return {
       cellSize: 20,
       boardSize: 20,
-      speed: 10,
+      speed: 20,
       scores: 0,
       isPlaying: false
     };

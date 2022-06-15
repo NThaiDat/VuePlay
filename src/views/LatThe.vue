@@ -130,6 +130,8 @@ export default {
         this.the2 = '';
         if (this.checkComplete()){
           alert('Bạn đã hoàn thành trò chơi này');
+          //reload page
+          this.$router.go(0)
         }
         // console.log("done")
       } else {
